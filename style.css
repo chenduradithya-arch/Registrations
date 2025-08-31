@@ -1,0 +1,61 @@
+/* Container */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #f1f7ff, #ffffff);
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  width: 380px;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+}
+
+h2 {
+  margin: 0 0 14px;
+  text-align: center;
+  color: #1f3b73;
+}
+
+/* Fields */
+.field { margin-bottom: 12px; }
+label { display: block; margin-bottom: 6px; color: #333; font-size: 14px; }
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border: 1px solid #dfe7f2;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+  color: #fff;
+  cursor: pointer;
+}
+button:hover { filter: brightness(0.95); }
+
+/* Messages */
+#message {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.35;
+}
+.hidden { display: none; }
+.success { background: #eafaf0; color: #0a8f38; }
+.error   { background: #ffeaea; color: #b00020; }
